@@ -1,0 +1,7 @@
+typevar alpha, beta, gamma;
+
+infixr -> : 2;
+abstype neg -> pos;
+
+infixr # : 4.a;
+abstype pos # pos;
